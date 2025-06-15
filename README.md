@@ -83,5 +83,5 @@ This parameter controls how much the velocity of the material is reduced at each
     Materials Behave Differently: The "Snow" material was more sensitive to parameter changes than "Jelly," crashing when damping was increased and showing a larger PSNR drop with changes in substep_dt. This highlights that different materials require different parameter tuning for stable and desirable results.
 
 ## Results
-All outputs showed in the former ablation study can be find in ./output
+All outputs showed in the former ablation study can be find in ./output or see it in [youtube play list](https://www.youtube.com/playlist?list=PLMpfPn-voto2c9KA6rkMFYfLOm8i7SYd8)
 
