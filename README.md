@@ -36,9 +36,7 @@ n_grid = 100 / substep = 1e-4 / grid_v_damping_scale = 0.9999 / softening = 0.1
 |                       | n_grid = 1 | substep_dt = 1e-5 | grid_v_damping_scale = 1.9999 | grid_v_damping_scale = 0.0009 | Softening = 10 |
 |-----------------------|------------|-------------------|-------------------------------|-------------------------------|----------------|
 | **Jelly psnr**        | 24.72      | 21.20             | 22.35                         | 21.97                         | 24.72          |
-| Compared to baseline  |            |                   |                               |                               |                |
 | **Snow psnr**         | 42.66      | 16.29             | Warp CUDA error 700 if set    | 16.25                         | 42.29          |
-| Compared to baseline  |            |                   | scale > 1                     |                               |                |
 
 ## Interpreting the Parameter Tests
 
