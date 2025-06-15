@@ -47,7 +47,7 @@ n_grid = 100 / substep = 1e-4 / grid_v_damping_scale = 0.9999 / softening = 0.1
         With a high-resolution grid (n_grid=100), you can accurately capture how different parts of the jelly stretch and shear.
         With a tiny grid (n_grid=1), you lose all of this spatial information. The simulation can no longer compute internal stress and strain properly. The jelly block might behave more like a single rigid object or lose its characteristic "jiggle," causing a major deviation from the baseline, hence the low PSNR.
 
-    Snow (Granular Material): Snow is often simulated as a granular material using models like the Drucker-Prager model. While it has some cohesion, its motion is governed by the collective behavior of many small particles.
+    Snow (Granular Material): Snow is often simulated as a granular material. While it has some cohesion, its motion is governed by the collective behavior of many small particles.
 
         In many scenarios (like a simple pile settling or a slow avalanche), the large-scale motion doesn't depend heavily on fine-grained internal stress calculations. The primary motion is advecting (moving) the particles.
         As a result, even a very coarse grid might be sufficient to handle the bulk interactions and gravity, leading to a final result that looks very similar to the high-resolution simulation.
